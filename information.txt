@@ -1,0 +1,4 @@
+v-bind:value="post.title" @input="post.title=$event.target.value" -> v-model="post.title" (pentru a verifica informatia dintrodusa in input)
+v-if="posts.length>0" (if din js se se executa daca conditia este adevarata)
+v-else (if else )
+v-show="posts.length>0"(un fel de if dar cu display none si block)
